@@ -1,0 +1,31 @@
+-- Aprovado
+{
+  "valorCredito": 15000,
+  "tipoCredito": "PJ",
+  "qtdeParcelas": 10,
+  "dataPrimeiroVcto": "20230710",
+  "validacao": {
+    "valorMaximoLiberado": 1000000,
+    "qtdeMinimaParcelas": 5,
+    "qtdeMaximaParcelas": 72,
+    "valorMinimoLiberadoPJ": 15000,
+    "minimoDiasVencimento": 15,
+    "maximoDiasVencimento": 40
+  }
+}
+
+-- Reprovado
+{
+  "valorCredito": 14000,
+  "tipoCredito": "PJ",
+  "qtdeParcelas": 4,
+  "dataPrimeiroVcto": "20230705",
+  "validacao": {
+    "valorMaximoLiberado": 1000000,
+    "qtdeMinimaParcelas": 5,
+    "qtdeMaximaParcelas": 72,
+    "valorMinimoLiberadoPJ": 15000,
+    "minimoDiasVencimento": 15,
+    "maximoDiasVencimento": 40
+  }
+}
